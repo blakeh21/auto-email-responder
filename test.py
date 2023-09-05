@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Initialize Streamlit and Gmail configurations
-st.set_page_title("Email Tracker")
+st.write("# Email Tracker")
 sidebar = st.sidebar
 col1, col2, col3 = st.beta_columns(3)
 
