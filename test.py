@@ -9,7 +9,12 @@ col1.header("Unread Emails/Follow Ups")
 col1.write("""
          # Here are unread emails
          This would be email content""")
-want_to_contribute = col1.button("Respond")
+respond = col1.button("Respond")
+if respond:
+    col1.header("Unread Emails/Follow Ups 2")
+    col1.write("""
+         # Here are unread emails
+         This would be email content""")
 
 col2.header("Automation")
 col1.write("""
